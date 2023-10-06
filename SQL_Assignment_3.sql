@@ -390,6 +390,3 @@ CALL AddNewLoan(101, 1003, '2023-10-01', '2023-10-15');
 -- Checks new loan has been added to the table [WILDCARD REQUIRED] --
 SELECT *
 FROM Loans;
-
-SELECT * 
-FROM Books;
